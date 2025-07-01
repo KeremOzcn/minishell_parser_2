@@ -1,5 +1,5 @@
 CC = cc
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -fPIC
 NAME = minishell
 SRC = main.c ./parser/lexer1.c ./parser/lexer2.c ./parser/parser1.c ./parser/parser2.c ./parser/parse_pushback.c \
 	./parser/split_token1.c ./parser/split_token2.c ./parser/check_error.c ./parser/free.c ./parser/linked_list.c

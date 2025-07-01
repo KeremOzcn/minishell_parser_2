@@ -6,11 +6,13 @@
 /*   By: kozcan <kozcan@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/24 12:03:29 by kozcan            #+#    #+#             */
-/*   Updated: 2025/07/01 17:52:25 by kozcan           ###   ########.fr       */
+/*   Updated: 2025/07/01 18:20:18 by kozcan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minishell.h"
+
+t_globals	g_global;
 
 // minishell_loop: Kullanıcıdan komut alıp işleyen ana döngü fonksiyonu.
 void	minishell_loop(char *line, t_global *mini)

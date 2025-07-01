@@ -6,7 +6,7 @@
 /*   By: kozcan <kozcan@student.42istanbul.com.t    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/24 12:18:03 by kozcan            #+#    #+#             */
-/*   Updated: 2025/06/24 12:18:34 by kozcan           ###   ########.fr       */
+/*   Updated: 2025/07/01 18:41:04 by kozcan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ void	ft_skipinit(t_simple_cmds **new, int flag)
 	(*new)->num_redirections = 0;
 
 	// Here-doc için geçici dosya adını oluştur
-	path_prefix = ft_strdup("/Users/msamilog/temps/"); // Kullanıcı yolunu güncelle
+	path_prefix = ft_strdup("/Users/kozcan/temps/"); // Kullanıcı yolunu güncelle
 	num_str = ft_itoa(i++);
 	(*new)->hd_file_name = ft_strjoin(path_prefix, num_str);
 	free(num_str);
